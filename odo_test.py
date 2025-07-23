@@ -90,6 +90,7 @@ headers = {
     "Content-Type": "application/json"
 }
 print("payload",json.dumps(fbr_payload,indent=2))
+print("Using token:", headers["Authorization"])
 response = requests.post(fbr_url, headers=headers, data=json.dumps(fbr_payload), verify=False)
 
 # === Output Response ===
