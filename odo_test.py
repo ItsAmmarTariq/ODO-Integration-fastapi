@@ -86,9 +86,9 @@ for line in lines:
 
 # === Send to FBR ===
 headers = {
-    "Authorization": "Bearer Token:3124e65b-0501-3e90-9c53-ceea5aabad00",  # ⚠️ NOT Token:
-    "Content-Type": "application/json"
-}
+    "Authorization": "Bearer 3124e65b-0501-3e90-9c53-ceea5aabad00"
+    }
+
 print("payload",json.dumps(fbr_payload,indent=2))
 print("Using token:", headers["Authorization"])
 response = requests.post(fbr_url, headers=headers, data=json.dumps(fbr_payload), verify=False)
