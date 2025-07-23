@@ -10,8 +10,8 @@ username = "altafhussainslara@gmail.com"
 password = "@Altaf12"  # Use API key if applicable
 
 # === FBR Credentials ===
-fbr_url = "https://esp.fbr.gov.pk:8244/DigitalInvoicing/v1/PostInvoiceData_v1"
-bearer_token = " 07eabd29-fb34-3a2a-ab73-1ff4eb282aef"
+fbr_url = "https://gw.fbr.gov.pk/di_data/v1/di/postinvoicedata_sb"
+bearer_token = "3124e65b-0501-3e90-9c53-ceea5aabad00"
 
 # === Connect to Odoo ===
 common = xmlrpc.client.ServerProxy(f"{url}/xmlrpc/2/common")
